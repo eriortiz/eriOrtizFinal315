@@ -1,0 +1,35 @@
+{
+  "MainNav": [
+    { "path": "home", "linkName": " Home " },
+    { "path": "recipes", "linkName": "  Browse " },
+    { "path": "create", "linkName": "  Create Recipe " },
+    { "path": "login", "linkName": "  Login " }
+  ],
+
+  "Pages": [
+    {
+      "pageName": "home",
+      "content": "<div class='homepage'><div class='shapeOne'><h1>The Jungle Cook</h1><p1>The home to various recipes of your choice. Add your own recipe today and fill the world with joy!</p1></div><div class='shapeTwo'><p2>Want to be a Jungle Cook? Go ahead and the kitchen is yours!</p2></div></div>"
+    },
+    {
+      "pageName": "recipes",
+      "content": "<div class='recipepage'><h2>Recipes: Try some today!</h2><div class='recipeList'></div></div>"
+    },
+    {
+      "pageName": "create",
+      "content": "<div class='createpage'><h3>Create Your Recipe</h3><input placeholder='Recipe Name' type='text' id='recipe-name' /></br></br><input placeholder='Recipe Description' type='text' id='recipe-description' /></br></br><input placeholder='Recipe Total Time' type='text' id='recipe-totaltime' /></br></br><input placeholder='Recipe Serving Size' type='text' id='recipe-servings' /></br></br><h4>Enter Ingredients:</h4><input placeholder='Ingredient #1' type='text' id='recipe-ingredient1' /></br></br><input placeholder='Ingredient #2' type='text' id='recipe-ingredient2' /></br></br><input placeholder='Ingredient #3' type='text' id='recipe-ingredient3' /></br></br><h4>Enter Instructions:</h4><input placeholder='Instruction #1' type='text' id='recipe-instruction1' /></br></br><input placeholder='Instruction #2' type='text' id='recipe-instruction2 /></br></br><input placeholder='Instruction #3' type='text' id='recipe-instruction3' /></br></br><button id='addData' class='createButton'>Create Recipe</button></div>"
+    },
+    {
+      "pageName": "login",
+      "content": "<div class='loginpage'><div class='logincontent'><h5>Login Here!</h5></br></br><input placeholder='Email' type='text' id='myEmail' /><input placeholder='Password' type='text' id='myPassword' /></br></br><button id='loginButton' class='loginButton'>Login</button><h5>Signup Here!</h5></br></br><input placeholder='First Name' type='text' id='myFirstName' /><input placeholder='Last Name' type='text' id='myLastName' /><input placeholder='Email Address' type='text' id='myEmail' /><input placeholder='Password' type='text' id='login-input' /></br></br><button id='signupButton' class='loginButton'>Sign Up</button></div></div>"
+    },
+    {
+      "pageName": "recipeinfo",
+      "content": "<div class='createpage'>></div>"
+    },
+    {
+      "pageName": "editrecipe",
+      "content": "<div class='createpage'><h3>Create Your Recipe</h3><input placeholder='Recipe Name' type='text' id='recipe-name' /></br></br><input placeholder='Recipe Description' type='text' id='recipe-description' /></br></br><input placeholder='Recipe Total Time' type='text' id='recipe-totaltime' /></br></br><input placeholder='Recipe Serving Size' type='text' id='recipe-servings' /></br></br><h4>Enter Ingredients:</h4><input placeholder='Ingredient #1' type='text' id='recipe-ingredient1' /></br></br><input placeholder='Ingredient #2' type='text' id='recipe-ingredient2' /></br></br><input placeholder='Ingredient #3' type='text' id='recipe-ingredient3' /></br></br><h4>Enter Instructions:</h4><input placeholder='Instruction #1' type='text' id='recipe-instruction1' /></br></br><input placeholder='Instruction #2' type='text' id='recipe-instruction2 /></br></br><input placeholder='Instruction #3' type='text' id='recipe-instruction3' /></br></br><button class='createButton' id='addData'>Create Recipe</button></div>"
+    }
+  ]
+}
